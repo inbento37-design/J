@@ -56,9 +56,9 @@
         </div>
       </div>
 
-      <!-- Paso 5: Canal -->
+      <!-- Paso 5: Canal de contraseñas -->
       <div id="channel-area" class="hidden mt-4">
-        <p class="text-sm mb-2">Únete a nuestro canal:</p>
+        <p class="text-sm mb-2">Únete a nuestro canal de contraseñas:</p>
         <a id="channel-btn" href="https://whatsapp.com/channel/0029VbBBxkN1yT20bpPJnU23" target="_blank" class="bg-purple-600 text-white px-5 py-3 rounded-lg font-semibold inline-block">Unirme al canal</a>
         <div class="mt-4 hidden" id="channel-continue-wrapper">
           <button id="channel-continue-btn" class="bg-blue-600 text-white px-5 py-3 rounded-lg font-semibold">Seguir</button>
@@ -68,7 +68,10 @@
       <!-- Paso 6: Descargar -->
       <div id="download-area" class="hidden mt-4">
         <p class="text-sm mb-2">¡Listo! Ahora puedes descargar:</p>
-        <a id="download-link" href="https://www.mediafire.com/file/jxj06cqj1l32gm6/ACTULIZADO.zip/file" target="_blank" class="bg-green-600 text-white px-5 py-3 rounded-lg font-semibold inline-block">Descargar ahora</a>
+        <a id="download-link"
+           href="https://www.mediafire.com/file/jxj06cqj1l32gm6/04_OCTUBRE.zip/file"
+           target="_blank"
+           class="bg-green-600 text-white px-5 py-3 rounded-lg font-semibold inline-block">Descargar ahora</a>
       </div>
 
     </div>
@@ -76,7 +79,7 @@
 
   <script>
     const CHANNEL_URL = "https://www.youtube.com/@jk-trick2625";
-    const VIDEO_URL = "https://youtu.be/W3v7NcMjGwA?si=Xa2LNKyZXqkMbvnc";
+    const VIDEO_URL   = "https://youtu.be/W3v7NcMjGwA?si=Xa2LNKyZXqkMbvnc";
 
     const modal = document.getElementById('subscribe-modal');
     const openGateBtn = document.getElementById('open-gate');
