@@ -50,15 +50,15 @@
       <!-- Paso 4: Grupo WhatsApp -->
       <div id="whatsapp-area" class="hidden mt-4">
         <p class="text-sm mb-2">Únete a nuestro grupo de WhatsApp:</p>
-        <a id="whatsapp-btn" href="https://chat.whatsapp.com/HkmNRGbee4x4hDOmCBNfAN?mode=ems_copy_c" target="_blank" class="bg-green-600 text-white px-5 py-3 rounded-lg font-semibold inline-block">Unirme al grupo</a>
+        <a id="whatsapp-btn" href="https://chat.whatsapp.com/HkmNRGbee4x4hDOmCBNfAN" target="_blank" class="bg-green-600 text-white px-5 py-3 rounded-lg font-semibold inline-block">Unirme al grupo</a>
         <div class="mt-4 hidden" id="continue-wrapper">
           <button id="continue-btn" class="bg-blue-600 text-white px-5 py-3 rounded-lg font-semibold">Seguir</button>
         </div>
       </div>
 
-      <!-- Paso 5: Canal de contraseñas -->
+      <!-- Paso 5: Canal -->
       <div id="channel-area" class="hidden mt-4">
-        <p class="text-sm mb-2">Únete a nuestro canal de contraseñas:</p>
+        <p class="text-sm mb-2">Únete a nuestro canal:</p>
         <a id="channel-btn" href="https://whatsapp.com/channel/0029VbBBxkN1yT20bpPJnU23" target="_blank" class="bg-purple-600 text-white px-5 py-3 rounded-lg font-semibold inline-block">Unirme al canal</a>
         <div class="mt-4 hidden" id="channel-continue-wrapper">
           <button id="channel-continue-btn" class="bg-blue-600 text-white px-5 py-3 rounded-lg font-semibold">Seguir</button>
@@ -68,16 +68,15 @@
       <!-- Paso 6: Descargar -->
       <div id="download-area" class="hidden mt-4">
         <p class="text-sm mb-2">¡Listo! Ahora puedes descargar:</p>
-        <a id="download-link" href="https://www.mediafire.com/file/pscg4q9rmwh08aj/ARCHIVO.zip/file" target="_blank" class="bg-green-600 text-white px-5 py-3 rounded-lg font-semibold inline-block">Descargar ahora</a>
+        <a id="download-link" href="https://www.mediafire.com/file/jxj06cqj1l32gm6/ACTULIZADO.zip/file" target="_blank" class="bg-green-600 text-white px-5 py-3 rounded-lg font-semibold inline-block">Descargar ahora</a>
       </div>
 
     </div>
   </div>
 
   <script>
-    // Canal y video
     const CHANNEL_URL = "https://www.youtube.com/@jk-trick2625";
-    const VIDEO_URL   = "https://youtu.be/W3v7NcMjGwA?si=Xa2LNKyZXqkMbvnc";
+    const VIDEO_URL = "https://youtu.be/W3v7NcMjGwA?si=Xa2LNKyZXqkMbvnc";
 
     const modal = document.getElementById('subscribe-modal');
     const openGateBtn = document.getElementById('open-gate');
